@@ -3,7 +3,7 @@
   const Racked = {render};
   // okay works now continuing on
   function formatDate(date) {
-    return date + '';
+    return new Date(date).toLocaleTimeString();
   }
 
   function Avatar(props) {
