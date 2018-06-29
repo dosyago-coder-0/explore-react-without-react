@@ -20,7 +20,7 @@
     "wbr"
   ]);
 
-  Object.assign( self, {df,fc});
+  Object.assign(self, {df,fc});
   Object.assign(self,{VOID_ELEMENTS,R});
 
   function df( t ) {
@@ -44,5 +44,4 @@
     str += parts.shift();
     return str;
   }
-
 }
