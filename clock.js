@@ -13,7 +13,7 @@
 
   function tick() {
     Racked.render(
-      R`<Clock date="${new Date()}" />`,
+      R`<Clock date="${new Date().toLocaleTimeString()}" />`,
       document.getElementById('root')
     );
   }
